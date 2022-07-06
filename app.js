@@ -8,7 +8,7 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const GitHubStrategy = require('passport-github2').Strategy;
 const findOrCreate = require("mongoose-findorcreate");
-
+// also install passport-local 
 
 // const encrypt = require("mongoose-encryption");
 // const md5 = require("md5");
